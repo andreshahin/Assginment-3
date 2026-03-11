@@ -26,7 +26,9 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                        'btn-bg': '#ABEF5F'
+                        'btn-bg': '#ABEF5F',
+                        'gray-4': '#737373',
+                        'gray-5': '#494949'
                     }
                 }
             }
@@ -116,14 +118,18 @@
                     <img src="assets/banner.png" alt="Shoes" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center space-y-5">
-                    <h2 class="card-title text-[#212121] font-extrabold text-6xl">A barn house of this design has a striking appearance</h2>
-                    <p class="text-[#494949] font-medium">The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                    <h2 class="card-title text-[#212121] font-extrabold text-6xl">A barn house of this design has a
+                        striking appearance</h2>
+                    <p class="text-[#494949] font-medium">The barn house captivates with its blend of rustic charm and
+                        modern sophistication, featuring
                         weathered wood, sleek metal accents, and large windows that flood the space with natural light.
                     </p>
                     <div class="card-actions">
-                        <button class="btn text-[#212121] bg-[rgba(171,239,95,0.5)] border-none rounded-full px-24 lg:px-7">View Details <svg
-                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="size-9 bg-btn-bg text-[#212121] font-bold text-xl rounded-full p-1">
+                        <button
+                            class="btn text-[#212121] bg-[rgba(171,239,95,0.5)] border-none rounded-full px-24 lg:px-7">View
+                            Details <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor"
+                                class="size-9 bg-btn-bg text-[#212121] font-bold text-xl rounded-full p-1">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                             </svg></button>
@@ -133,7 +139,119 @@
         </div>
     </header>
 
-    <main>
+    <main class="">
+        <!-- about section -->
+        <section class=" bg-base-200">
+            <div class="max-w-screen-xl mx-auto pt-6 hidden lg:flex">
+                <img src="assets/Vector.png" alt="">
+            </div>
+            <div class="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-2 pt-5 pb-8 gap-8">
+                <div class="space-y-6 mx-4">
+                    <div class="text-center lg:text-start space-y-6 mb-7">
+                        <a class="text-gray-5 bg-base-100 inline-flex rounded-full"><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                            </svg>
+                            About Us</a>
+                        <h3 class="text-[#212121] font-bold text-4xl">We design thoughtful, liveable spaces</h3>
+                        <p class="text-gray-5 font-medium">The barn house captivates with its blend of rustic charm and
+                            modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                    </div>
+
+                    <div class=" bg-base-100 p-6 flex gap-5 lg:gap-7 py-7">
+                        <figure>
+                            <img src="assets/commercial.png" alt="">
+                        </figure>
+                        <div class="">
+                            <h2 class="card-title text-gray-5 font-extrabold text-xl">Card Title</h2>
+                            <p class="text-gray-4 font-medium">A card component has a figure, a body part, and inside
+                                body
+                                there are title and actions parts
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class=" bg-base-100 p-6 flex gap-5 lg:gap-7 py-7">
+                        <figure>
+                            <img src="assets/residential.png" alt="">
+                        </figure>
+                        <div class="">
+                            <h2 class="card-title text-gray-5 font-extrabold text-xl">Card Title</h2>
+                            <p class="text-gray-4 font-medium">A card component has a figure, a body part, and inside
+                                body
+                                there are title and actions parts
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="mx-4">
+                    <img class="" src="assets/Rectangle.png" alt="">
+                </div>
+            </div>
+
+            <!-- count div -->
+            <div class="max-w-screen-xl mx-auto grid grid-cols-1 lg:grid-cols-4 py-16 lg:py-24 px-4">
+                <div class=" bg-base-100 p-6 flex flex-col items-center justify-center text-center gap-4 py-7">
+                    <figure>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                        </svg>
+
+                    </figure>
+                    <div class="">
+                        <h2 class=" text-gray-5 font-extrabold text-xl ">235+</h2>
+                        <p class="text-gray-4 font-medium">Happy Client Review</p>
+
+                    </div>
+                </div>
+                <div class=" bg-base-100 p-6 flex flex-col items-center justify-center text-center gap-4 py-7">
+                    <figure>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0 0 12 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75Z" />
+                        </svg>
+
+
+                    </figure>
+                    <div class="">
+                        <h2 class=" text-gray-5 font-extrabold text-xl ">50+</h2>
+                        <p class="text-gray-4 font-medium">Work Departments</p>
+
+                    </div>
+                </div>
+                <div class=" bg-base-100 p-6 flex flex-col items-center justify-center text-center gap-4 py-7">
+                    <figure>
+                       <i class="fa-solid fa-users"></i>
+
+                    </figure>
+                    <div class="">
+                        <h2 class=" text-gray-5 font-extrabold text-xl ">350k+</h2>
+                        <p class="text-gray-4 font-medium">Our Happy Client</p>
+
+                    </div>
+                </div>
+                <div class=" bg-base-100 p-6 flex flex-col items-center justify-center text-center gap-4 py-7">
+                    <figure>
+                       <i class="fa-solid fa-user-group"></i>
+
+                    </figure>
+                    <div class="">
+                        <h2 class=" text-gray-5 font-extrabold text-xl ">307+</h2>
+                        <p class="text-gray-4 font-medium">Staff Members</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
 
     </main>
 
